@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1 style="text-align: center;">Place Order</h1>
+        <section id="form" style="margin:auto;justify-content: center; border: 1px solid;display: flex; max-width: 400px;">
+
+            <form id="form" style="padding:25px 15px;">
+                <label>First Name:</label>
+                <br>
+                <input type="text" id="fname" name="fname" placeholder=" Your First Name">
+                <br><br>
+                
+                <label>Last Name:</label>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder=" Your Last Name">
+                <br><br>
+                
+                <label>Select Pizza:</label>
+                <select id="pizza" name="food">
+                    <option>Pepperoni</option>
+                    <option>Mushroom</option>
+                    <option>Cheez</option>
+                </select>
+                <br><br>
+                
+                <label>Size:</label>
+                <input type="radio" id="large" value="large" name="size">
+                <label for="large">Large</label>
+                
+                <input type="radio" id="medium" value="medium" name="size">
+                <label for="medium">Medium</label>
+                
+                <input type="radio" id="small" value="small" name="size">
+                <label for="small">Small</label>
+                <br><br>
+                
+                <label>Crust:</label>
+                <input type="checkbox" id="Thin" name="Crust">
+                <label for="Thin">Thin</label> 
+                
+                <input type="checkbox" id="Medium" name="Crust">
+                <label for="Medium">Medium</label> 
+                
+                <input type="checkbox" id="Thick" name="Crust">
+                <label for="Thick">Thick</label> 
+                <br><br>
+                
+                <label>Address:</label>
+                <br>
+                <textarea id="comment" name="comment" placeholder="Eg: House no, Street no, Area"></textarea>
+                <br>
+                <input type="submit" value="Place Order?">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+        </main>
+    </body>
+</html>
