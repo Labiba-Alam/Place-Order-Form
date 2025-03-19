@@ -7,57 +7,85 @@
 </head>
 <body>
     <main>
-        <h1 style="text-align: center;">Place Order</h1>
-        <section id="form" style="margin:auto;justify-content: center; border: 1px solid;display: flex; max-width: 400px;">
+       
+       <!-- © background image from canva -->
+        <section style="background-image:url('./pizza.png'); padding: 30px;">
+        <!-- <p>&nbsp;</p> -->
 
-            <form id="form" style="padding:25px 15px;">
-                <label>First Name:</label>
-                <br>
-                <input type="text" id="fname" name="fname" placeholder=" Your First Name">
-                <br><br>
-                
-                <label>Last Name:</label>
-                <br>
-                <input type="text" id="lname" name="lname" placeholder=" Your Last Name">
-                <br><br>
-                
-                <label>Select Pizza:</label>
-                <select id="pizza" name="food">
-                    <option>Pepperoni</option>
-                    <option>Mushroom</option>
-                    <option>Cheez</option>
-                </select>
-                <br><br>
-                
-                <label>Size:</label>
-                <input type="radio" id="large" value="large" name="size">
-                <label for="large">Large</label>
-                
-                <input type="radio" id="medium" value="medium" name="size">
-                <label for="medium">Medium</label>
-                
-                <input type="radio" id="small" value="small" name="size">
-                <label for="small">Small</label>
-                <br><br>
-                
-                <label>Crust:</label>
-                <input type="checkbox" id="Thin" name="Crust">
-                <label for="Thin">Thin</label> 
-                
-                <input type="checkbox" id="Medium" name="Crust">
-                <label for="Medium">Medium</label> 
-                
-                <input type="checkbox" id="Thick" name="Crust">
-                <label for="Thick">Thick</label> 
-                <br><br>
-                
-                <label>Address:</label>
-                <br>
-                <textarea id="comment" name="comment" placeholder="Eg: House no, Street no, Area"></textarea>
-                <br>
-                <input type="submit" value="Place Order?">
-                <input type="reset" value="Reset">
-            </form>
+        <section style="background-color:antiquewhite;">
+        <marquee>
+        <h1>🍕 "Warning: Ordering pizza may cause extreme happiness!... Don’t mess this up!" 🍕</h1>
+        </marquee>
+    </section>
+               <br>
+               <section id="form" style="margin:auto;justify-content: center; border: 1px solid;display: flex; max-width: 400px; background-color:blanchedalmond;">
+                   
+                   <form id="form" style="padding:25px 15px;"> <strong style="font-size:xx-large; text-align: center; font-family:cursive; color: #9c0101;">Place Order Now!</strong><br><br>
+
+                    <label><strong>First Name:</strong></label>
+                    <br>
+                    <input type="text" id="fname" name="fname" placeholder=" Your First Name">
+                    <br><br>
+                    
+                    <label><strong>Last Name:</strong></label>
+                    <br>
+                    <input type="text" id="lname" name="lname" placeholder=" Your Last Name">
+                    <br><br>
+                    
+                    <label><strong>Contact Number</strong></label>
+                    <br>
+                    <input type="number" id="pnumber" placeholder=" Your Phone Number">
+                    <br><br>
+                    
+                    <label><strong>Select Pizza:</strong></label>
+                    <select id="pizza" name="food">
+                        <option>Pepperoni Delight</option>
+                        <option>Mushroom Mania</option>
+                        <option>Veggie Supreme</option>
+                        <option>Seafood Surprise</option>
+                        <option>Chicken Kick</option>
+                        <option>Classic Sausage</option>
+                        <option>Meat Feast</option>
+                        <option>Hawaiian Paradise</option>
+
+                    </select>
+                    <br><br>
+                    
+                    <label><strong> Size:</strong></label>
+                    <input type="radio" id="large" value="large" name="size">
+                    <label for="large">Large</label>
+                    
+                    <input type="radio" id="medium" value="medium" name="size">
+                    <label for="medium">Medium</label>
+                    
+                    <input type="radio" id="small" value="small" name="size">
+                    <label for="small">Small</label>
+                    <br><br>
+                    
+                    <label><strong> Crust:</strong></label>
+                    <input type="checkbox" id="Thin" name="Crust">
+                    <label for="Thin">Thin</label> 
+                    
+                    <input type="checkbox" id="Medium" name="Crust">
+                    <label for="Medium">Medium</label> 
+                    
+                    <input type="checkbox" id="Thick" name="Crust">
+                    <label for="Thick">Thick</label> 
+                    <br><br>
+
+                    <label><strong>Additional Instructions:</strong></label>
+                    <br>
+                    <textarea id="Instructions" name="Instructions" placeholder="Eg: No Onions"></textarea>
+                    <br><br>
+                    
+                    <label><strong>Full Address:</strong></label>
+                    <br>
+                    <textarea id="comment" name="comment" placeholder="Eg: House no, Street, Area"></textarea>
+                    <br>
+                    <input type="submit" value="Place Order?">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
         </section>
         </main>
     </body>
